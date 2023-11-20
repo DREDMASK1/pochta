@@ -1,0 +1,141 @@
+.abobus{
+    display: flex;
+    /* flex: 4; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://static.wikia.nocookie.net/ultimate-game-mixup/images/1/13/Kosmos.jpg/revision/latest?cb=20180704144102&path-prefix=ru");
+    gap: 25px;
+    background-size: contain;
+}
+button{
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    font-size: 38px;
+    padding: 8px;
+    border-radius: 9px;
+}
+.aboba{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(43, 33, 154, 0.499); */
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 10px 4px black;
+    transition: all 0.8s linear;       
+    background: linear-gradient(90deg, rgba(23,22,105,1) 0%, rgb(5, 13, 30) 35%, rgb(0, 39, 93) 100%);
+}
+.aboba:hover{
+    box-shadow: 0px 0px 10px 10px blueviolet;
+}
+img{
+    border-radius: 16px;
+}
+span{
+    
+}
+.ineput{
+    margin: 10px;
+
+}
+.trackNumber{
+    margin: 10px;
+    font-size: 22px;
+}
+.mail-box{
+    display: flex;
+    flex: 1;
+    /* position: absolute; */
+    /* right: 90px; */
+    /* top: 325px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 100px;
+    background: rgb(170, 84, 22);
+    gap: 4px;
+    transition: all 0.7s linear;
+    border-radius: 8px;
+}
+.mail-box1{
+    display: flex;
+    box-shadow: 0px 0px 10px 10px rgb(23, 30, 36);
+    flex: 1;
+    /* position: absolute; */
+    /* left: 90px; */
+    /* bottom: 359px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 100px;
+    background: rgb(170, 84, 22);
+    gap: 4px;
+    transition: all 0.3s linear;
+    border-radius: 8px;
+}
+.mail-box:hover{
+    box-shadow: 0px 0px 10px 10px rgb(85, 155, 217);
+}
+.mail-box1:hover{
+    box-shadow: 0px 0px 10px 10px rgb(174, 57, 39);
+}
+#mishkafreddy{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(255, 162, 173, 0.901);
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: rgb(255, 255, 255);
+}
+.bubble{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: black;
+}
+#mishkafreddy1 {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(255, 162, 173, 0.901);
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: rgb(255, 255, 255);
+}
+.freddy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+}
+.wertik{
+    background: linear-gradient(90deg, rgb(253, 204, 204) 0%, rgb(251, 79, 79) 35%, rgb(237, 55, 55) 100%);
+    border-radius: 15px;
+}
+.wertik2{
+    background: linear-gradient(90deg, rgb(222, 222, 231) 0%, rgb(147, 177, 241) 35%, rgb(53, 122, 220) 100%);;
+    border-radius: 15px;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
